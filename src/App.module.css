@@ -1,0 +1,9 @@
+.wrapper {
+    margin: 0 auto;
+    max-width: 46rem;
+    position: relative;
+    padding-top: 5.625rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: content-box;
+}

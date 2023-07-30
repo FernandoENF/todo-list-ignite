@@ -1,0 +1,37 @@
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.taskList{
+    margin-top: 1.5rem;
+    border-radius: 8px;
+}
+
+.taskList > article + article {
+    margin-top: 0.75rem;
+}
+
+.createdTasks{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: var(--blue);
+    gap: 0.5rem;
+}
+
+.finishedTasks{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: var(--purple);
+    gap: 0.5rem;
+}
+
+.badge{
+    padding: 0.125rem 0.5rem;
+    background-color: var(--gray-400);
+    color: var(--gray-200);
+    border-radius: 999px;
+    font-size: 75%;
+}

@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    background-color: var(--gray-700);
+    height: 12.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo > img {
+    vertical-align: bottom;
+    width: 1.375rem;
+    height: auto;
+}
+
+.logo > img + h1 {
+    margin-left: 0.75rem;
+}
+
+.logo > h1, .logo > h1 strong {
+    display: inline;
+    color: var(--blue);
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+.logo > h1 strong{
+    color: var(--purple-dark);
+}
